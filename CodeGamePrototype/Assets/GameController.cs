@@ -49,12 +49,12 @@ public class GameController : MonoBehaviour
                 answerBox.GetComponent<InputField>().ActivateInputField();
                 answerBox.GetComponent<InputField>().text = "";
             }
+        }
 
-            //Closes the application if the user presses the escape key
-            if(Input.GetKeyDown(KeyCode.Escape))
-            {
-                Application.Quit();
-            }
+        //Closes the application if the user presses the escape key
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 
