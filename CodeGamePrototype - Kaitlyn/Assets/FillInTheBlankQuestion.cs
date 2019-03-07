@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * @author: Kaitlyn Deppmeier
+ * @class: CPSC 362-07
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
